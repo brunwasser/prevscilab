@@ -1,0 +1,25 @@
+---
+title: "**Collaborations**"
+output:
+  html_document:
+    theme: sandstone
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+<br>
+
+### <span style="color: darkblue;">**Social, Emotional, and  Affective Health Lab (SEAHL).** </span> Rowan University
+<font size="4"> 
+We work with Dr. Katherine Gotham's lab conducting research evaluating the role of repetitive thinking and explanatory style in the development of depression in adults with Autism Spectrum Disorders. 
+</font>
+
+<br>
+<br>
+
+### <span style="color: darkblue;">**Asthma Research Center.** </span> Vanderbilt University Medical Center
+<font size="4">
+We work with Dr. Tina Hartert's [Asthma Research Center](https://www.vumc.org/aehr/welcome) on research aimed at understanding environmental contributors to the development of pediatric asthma and allergic diseases. 
+</font> 

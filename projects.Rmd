@@ -1,0 +1,43 @@
+---
+title: "**Projects**"
+output:
+  html_document:
+    theme: sandstone
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+<br>
+
+## <span style="color: darkblue;">**Active Projects** </span>
+
+<br>
+
+### **Depression in Adolescence & Emerging Adulthood**
+
+<font size="4"> 
+
+**College Transition Studies**
+These studies evaluate the course and development of depressive symptoms among first-year students and transfer students making the transition to a new higher education institution.
+
+</font>
+
+
+
+<br>
+
+## <span style="color: darkblue;">**Recently Completed Projects** </span>
+<br>
+
+### **Pediatric Asthma & Allergic Disease** ###
+
+<font size="4"> 
+
+**Review of evidence for a causal effect of infant RSV-induced lower respiratory tract infections on subsequent wheezing illness.**
+This quantitative review was commissioned by the World Health Organization and evaluated the extent to which there is compelling evidence that infant lower respiratory tract infections caused by respiratory syncytial virus contribute causally to chronic wheezing illnesses, like asthma. This study was led by Dr. Brunwasser along with Drs. Tina Hartert (Vanderbilt University Medical Center) and Justin Ortiz (University of Maryland School of Medicine). We published an [open-access journal article](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30109-0/fulltext) describing the findings in Lancet Respiratory Medicine. 
+
+A detailed summary of our analyses, including the data and R Code, is available [here](https://brunwasser.github.io/whorsv.github.io/index.html). 
+
+</font>
