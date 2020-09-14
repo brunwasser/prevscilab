@@ -1,0 +1,89 @@
+---
+title: "The **Prev**ention **Sci**ence (PrevSci) Lab"
+output:
+  html_document:
+    theme: sandstone
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+<br>
+
+### <span style="color: darkblue;">**News and Announcements**</span>
+
+<font size="4"> 
+
+* <span style="color: red;">**We will be accepting a new doctoral student in our lab for the Fall 2021 semester!</span> Applications are due January 1, 2021.** If you are interested, please contact Dr. Brunwasser by [email](mailto:brunwasser@rowan.edu?subject=[Application for Rowan's PhD Psychology Program]) and see [Rowan's Ph.D. Clinical Psychology Application page](https://csm.rowan.edu/departments/psychology/clinical/prospective/applicationinfo.html) for application details.
+* Welcome to Nicole Kelso, MPS! Nicole is a new student in Rowan's Ph.D. Clinical Psychology Program. See Our Team page for more information about Nicole.
+* We are seeking volunteer Rowan undergraduate research assistants to work in our lab during the Fall 2020 and Spring 2021 semesters. This an excellent opportunity to gain research experience. All work will be done remotely. Please [contact us](mailto:brunwasser@rowan.edu?subject=[Research Assistant Position]) if you are interested. 
+* Dr. Brunwasser's research on the role of infant RSV infection in the development of chronic wheezing illness, commissioned by the World Health Organization, was highlighted in the [College of Science & Mathematics Newsletter](https://csm.rowan.edu/scope-newsletter/the-scope-newsletter-winter-spring-2020.pdf) for the Spring 2020 semester.
+
+</font>
+
+<br>
+
+### <span style="color: darkblue;">**Mission**</span>
+<font size="4"> Our lab, in the Rowan University Psychology Department, conducts research aimed at advancing efforts to prevent chronic health conditions. To that end, We have four specific areas of focus: 
+
+1. **Risk identification.** Identifying individuals at elevated risk for health problems and in greatest need of preventive services
+2. **Etiology.** Identifying modifiable processes that contribute to the development of chronic health conditions
+3. **Intervention.** Developing, evaluating, and implementing interventions targeting etiological factors that contribute to chronic health conditions in real-world settings
+4. **Synthesizing findings.** Conducting reviews to evaluate the strength of evidence for key etiological theories and preventive interventions
+
+</font>
+
+<br>
+
+### <span style="color: darkblue;">**Primary Research Topics**</span>
+
+<font size="4"> 
+
+
+#### **Preventing perinatal adversity and its associated impact on child health outcomes** ####
+Stress and psychopathology are highly common during pregnancy and the first year postpartum. In addition to the negative impact on maternal health and well-being, children exposed to perinatal adversity are at increased risk for a number of health complications. Our group is working on projects to improve (1) identification of high-risk pregnancies in healthcare settings, (2) understanding of how maternal adversity affects the development of the developing child, and (3) integration of mental health services into prenatal care settings.
+
+<br>
+
+*Select Relevant Publications*
+
+* Sutherland, S., & Brunwasser, S. M. (2018). Sex differences in vulnerability to prenatal stress: a review of the recent literature. Current psychiatry reports, 20(11), 102. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6329286/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6329286/)
+* Brunwasser, S. M., Slavich, G. M., Newcomb, D. C., Gebretsadik, T., Turi, K. N., Stone Jr, C., ... & Hartert, T. V. (2019). Sex-specific association between prenatal life stress exposure and infant pro-inflammatory cytokine levels during acute respiratory infection. Brain, behavior, and immunity, 76, 275-279. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380181/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380181/)
+
+<br> 
+
+#### **Preventing depression in adolescence and emerging adulthood** ####
+The prevalence of depression increases greatly during the adolescent years [(Merikangas et al., 2010)](https://www.sciencedirect.com/science/article/pii/S0890856710004764?casa_token=k6hPe-AGaHsAAAAA:MB4ICDqvowv7_j4rS7YQ-KxQSgoO1luYuDVREWZ4KqY98ILvwnRy_bM8BWxMgk_IR5vwfAIPBQ). Our lab conducts research testing etiological models of youth depression. We are currently testing models of how depression develops among students making the transition to higher education. Additionally, we evaluate the effectiveness of youth preventive interventions. Much of our work focuses on identifying who benefits most -- and least -- from youth prevention programs (i.e., effect modifiers) and testing whether there is evidence for the hypothesized mechanisms of action (i.e., effect mediators).
+
+<br>
+
+*Select Relevant Publications*
+
+* Brunwasser, S. M., Gillham, J. E., & Kim, E. S. (2009). A meta-analytic review of the Penn Resiliency Program’s effect on depressive symptoms. Journal of consulting and clinical psychology, 77(6), 1042. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4667774/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4667774/)
+* Brunwasser, S. M., & Garber, J. (2016). Programs for the prevention of youth depression: Evaluation of efficacy, effectiveness, and readiness for dissemination. Journal of Clinical Child & Adolescent Psychology, 45(6), 763-783. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5176361/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5176361/)
+* Brunwasser, S. M., Freres, D. R., & Gillham, J. E. (2018). Youth cognitive-behavioral depression prevention: Testing theory in a randomized controlled trial. Cognitive therapy and research, 42(4), 468-482.
+
+<br> 
+
+#### **Preventing early childhood asthma and allergic disease**
+Pediatric asthma and allergic diseases are common and highly burdensome. In collaboration with the Asthma Research Center at Vanderbilt University Medical Center, we conduct research aimed at identifying modifiable etiological processes contributing to these adverse health outcomes. 
+
+<br>
+
+*Select Relevant Publications*
+
+* Brunwasser, S. M., Snyder, B. M., Driscoll, A. J., Fell, D. B., Savitz, D. A., Feikin, D. R., ... & Wu, P. (2020). Assessing the strength of evidence for a causal effect of respiratory syncytial virus lower respiratory tract infections on subsequent wheezing illness: a systematic review and meta-analysis. The Lancet Respiratory Medicine, 8(8), 795-806. [https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30109-0/fulltext](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30109-0/fulltext)
+* Brunwasser, S. M., Gebretsadik, T., Gold, D. R., Turi, K. N., Stone Jr, C. A., Datta, S., ... & Hartert, T. V. (2018). A new model of wheezing severity in young children using the validated ISAAC wheezing module: A latent variable approach with validation in independent cohorts. PloS one, 13(4), e0194739. [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194739](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194739)
+* Brunwasser, S. M., & Hartert, T. V. (2019). Practical and conceptual considerations for the primary prevention of asthma. Clinics in chest medicine, 40(1), 1-11. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6355160/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6355160/)
+
+<br>
+
+### <span style="color: darkblue;">**Core Principles**</span>
+
+* **Transparency.** We work to make our research methods and findings as transparent as possible. Whenever possible, we share data and our analytic code, allowing others to reproduce and critique our results.
+* **Patient-Centeredness.** we subscribe to the patient-centered research approach in which the population of interest in a research study should be involved from the outset in all phases of the research process. We work together with patient representatives and stakeholders to ensure that our work addresses questions that are of greatest value to the populations we study.
+* **Transdiagnostic targets.** Our group does not focus on a single health outcome. Rather, we are interested in studying etiological processes that contribute to a number of chronic health outcomes. For instance, we study the role that prenatal and infant immune development plays in both mental and physical health outcomes.
+
+
+</font>

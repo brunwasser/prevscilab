@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>The Prevention Science (PrevSci) Lab</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">The Prevention Science Lab</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">Our Team</a>
+</li>
+<li>
+  <a href="collaborations.html">Collaborations</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">The <strong>Prev</strong>ention <strong>Sci</strong>ence (PrevSci) Lab</h1>
+
+</div>
+
+
+<p><br></p>
+<div id="news-and-announcements" class="section level3">
+<h3><span style="color: darkblue;"><strong>News and Announcements</strong></span></h3>
+<p><font size="4"></p>
+<ul>
+<li><span style="color: red;"><strong>We will be accepting a new doctoral student in our lab for the Fall 2021 semester!</span> Applications are due January 1, 2021.</strong> If you are interested, please contact Dr. Brunwasser by <a href="mailto:brunwasser@rowan.edu?subject=%5BApplication%20for%20Rowan&#39;s%20PhD%20Psychology%20Program%5D">email</a> and see <a href="https://csm.rowan.edu/departments/psychology/clinical/prospective/applicationinfo.html">Rowan’s Ph.D. Clinical Psychology Application page</a> for application details.</li>
+<li>Welcome to Nicole Kelso, MPS! Nicole is a new student in Rowan’s Ph.D. Clinical Psychology Program. See Our Team page for more information about Nicole.</li>
+<li>We are seeking volunteer Rowan undergraduate research assistants to work in our lab during the Fall 2020 and Spring 2021 semesters. This an excellent opportunity to gain research experience. All work will be done remotely. Please <a href="mailto:brunwasser@rowan.edu?subject=%5BResearch%20Assistant%20Position%5D">contact us</a> if you are interested.</li>
+<li>Dr. Brunwasser’s research on the role of infant RSV infection in the development of chronic wheezing illness, commissioned by the World Health Organization, was highlighted in the <a href="https://csm.rowan.edu/scope-newsletter/the-scope-newsletter-winter-spring-2020.pdf">College of Science &amp; Mathematics Newsletter</a> for the Spring 2020 semester.</li>
+</ul>
+<p></font></p>
+<p><br></p>
+</div>
+<div id="mission" class="section level3">
+<h3><span style="color: darkblue;"><strong>Mission</strong></span></h3>
+<p><font size="4"> Our lab, in the Rowan University Psychology Department, conducts research aimed at advancing efforts to prevent chronic health conditions. To that end, We have four specific areas of focus:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Risk identification.</strong> Identifying individuals at elevated risk for health problems and in greatest need of preventive services</li>
+<li><strong>Etiology.</strong> Identifying modifiable processes that contribute to the development of chronic health conditions</li>
+<li><strong>Intervention.</strong> Developing, evaluating, and implementing interventions targeting etiological factors that contribute to chronic health conditions in real-world settings</li>
+<li><strong>Synthesizing findings.</strong> Conducting reviews to evaluate the strength of evidence for key etiological theories and preventive interventions</li>
+</ol>
+<p></font></p>
+<p><br></p>
+</div>
+<div id="primary-research-topics" class="section level3">
+<h3><span style="color: darkblue;"><strong>Primary Research Topics</strong></span></h3>
+<p><font size="4"></p>
+<div id="preventing-perinatal-adversity-and-its-associated-impact-on-child-health-outcomes" class="section level4">
+<h4><strong>Preventing perinatal adversity and its associated impact on child health outcomes</strong></h4>
+<p>Stress and psychopathology are highly common during pregnancy and the first year postpartum. In addition to the negative impact on maternal health and well-being, children exposed to perinatal adversity are at increased risk for a number of health complications. Our group is working on projects to improve (1) identification of high-risk pregnancies in healthcare settings, (2) understanding of how maternal adversity affects the development of the developing child, and (3) integration of mental health services into prenatal care settings.</p>
+<p><br></p>
+<p><em>Select Relevant Publications</em></p>
+<ul>
+<li>Sutherland, S., &amp; Brunwasser, S. M. (2018). Sex differences in vulnerability to prenatal stress: a review of the recent literature. Current psychiatry reports, 20(11), 102. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6329286/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6329286/</a></li>
+<li>Brunwasser, S. M., Slavich, G. M., Newcomb, D. C., Gebretsadik, T., Turi, K. N., Stone Jr, C., … &amp; Hartert, T. V. (2019). Sex-specific association between prenatal life stress exposure and infant pro-inflammatory cytokine levels during acute respiratory infection. Brain, behavior, and immunity, 76, 275-279. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380181/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380181/</a></li>
+</ul>
+<p><br></p>
+</div>
+<div id="preventing-depression-in-adolescence-and-emerging-adulthood" class="section level4">
+<h4><strong>Preventing depression in adolescence and emerging adulthood</strong></h4>
+<p>The prevalence of depression increases greatly during the adolescent years <a href="https://www.sciencedirect.com/science/article/pii/S0890856710004764?casa_token=k6hPe-AGaHsAAAAA:MB4ICDqvowv7_j4rS7YQ-KxQSgoO1luYuDVREWZ4KqY98ILvwnRy_bM8BWxMgk_IR5vwfAIPBQ">(Merikangas et al., 2010)</a>. Our lab conducts research testing etiological models of youth depression. We are currently testing models of how depression develops among students making the transition to higher education. Additionally, we evaluate the effectiveness of youth preventive interventions. Much of our work focuses on identifying who benefits most – and least – from youth prevention programs (i.e., effect modifiers) and testing whether there is evidence for the hypothesized mechanisms of action (i.e., effect mediators).</p>
+<p><br></p>
+<p><em>Select Relevant Publications</em></p>
+<ul>
+<li>Brunwasser, S. M., Gillham, J. E., &amp; Kim, E. S. (2009). A meta-analytic review of the Penn Resiliency Program’s effect on depressive symptoms. Journal of consulting and clinical psychology, 77(6), 1042. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4667774/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4667774/</a></li>
+<li>Brunwasser, S. M., &amp; Garber, J. (2016). Programs for the prevention of youth depression: Evaluation of efficacy, effectiveness, and readiness for dissemination. Journal of Clinical Child &amp; Adolescent Psychology, 45(6), 763-783. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5176361/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5176361/</a></li>
+<li>Brunwasser, S. M., Freres, D. R., &amp; Gillham, J. E. (2018). Youth cognitive-behavioral depression prevention: Testing theory in a randomized controlled trial. Cognitive therapy and research, 42(4), 468-482.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="preventing-early-childhood-asthma-and-allergic-disease" class="section level4">
+<h4><strong>Preventing early childhood asthma and allergic disease</strong></h4>
+<p>Pediatric asthma and allergic diseases are common and highly burdensome. In collaboration with the Asthma Research Center at Vanderbilt University Medical Center, we conduct research aimed at identifying modifiable etiological processes contributing to these adverse health outcomes.</p>
+<p><br></p>
+<p><em>Select Relevant Publications</em></p>
+<ul>
+<li>Brunwasser, S. M., Snyder, B. M., Driscoll, A. J., Fell, D. B., Savitz, D. A., Feikin, D. R., … &amp; Wu, P. (2020). Assessing the strength of evidence for a causal effect of respiratory syncytial virus lower respiratory tract infections on subsequent wheezing illness: a systematic review and meta-analysis. The Lancet Respiratory Medicine, 8(8), 795-806. <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30109-0/fulltext">https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30109-0/fulltext</a></li>
+<li>Brunwasser, S. M., Gebretsadik, T., Gold, D. R., Turi, K. N., Stone Jr, C. A., Datta, S., … &amp; Hartert, T. V. (2018). A new model of wheezing severity in young children using the validated ISAAC wheezing module: A latent variable approach with validation in independent cohorts. PloS one, 13(4), e0194739. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194739">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194739</a></li>
+<li>Brunwasser, S. M., &amp; Hartert, T. V. (2019). Practical and conceptual considerations for the primary prevention of asthma. Clinics in chest medicine, 40(1), 1-11. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6355160/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6355160/</a></li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="core-principles" class="section level3">
+<h3><span style="color: darkblue;"><strong>Core Principles</strong></span></h3>
+<ul>
+<li><strong>Transparency.</strong> We work to make our research methods and findings as transparent as possible. Whenever possible, we share data and our analytic code, allowing others to reproduce and critique our results.</li>
+<li><strong>Patient-Centeredness.</strong> we subscribe to the patient-centered research approach in which the population of interest in a research study should be involved from the outset in all phases of the research process. We work together with patient representatives and stakeholders to ensure that our work addresses questions that are of greatest value to the populations we study.</li>
+<li><strong>Transdiagnostic targets.</strong> Our group does not focus on a single health outcome. Rather, we are interested in studying etiological processes that contribute to a number of chronic health outcomes. For instance, we study the role that prenatal and infant immune development plays in both mental and physical health outcomes.</li>
+</ul>
+<p></font></p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

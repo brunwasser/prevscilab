@@ -1,0 +1,33 @@
+---
+title: "**Our Team**"
+output:
+  html_document:
+    theme: sandstone
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+<br>
+
+<font size="4"> 
+
+![](images/brunwasser_steven.jpg)
+
+### <span style="color: darkblue;">**Steven M. Brunwasser, Ph.D.**</span> Principal Investigator
+
+
+Steve is an Assistant Professor in the [Department of Psychology](https://csm.rowan.edu/departments/psychology/index.html) at Rowan University and an Adjunct Research Assistant Professor of Medicine at [Vanderbilt University Medical Center](https://medicine.vumc.org/). He received his doctoral degree in Psychology from the University of Michigan in 2012 and completed a T32 Postdoctoral Fellowship at Vanderbilt University. 
+
+* [CV](https://docs.google.com/document/d/1g7XoRqc5KjvDQufbpD1SuOZWjRmM8wCz7mYzvUSLzKc/edit?usp=sharing)
+* [Rowan Faculty Profile](https://csm.rowan.edu/departments/psychology/facultystaff/psychology_full_part/brunwasser.html)
+* [GoogleScholar Profile](https://scholar.google.com/citations?user=fTbkJLYAAAAJ&hl=en)
+* [National Library of Medicine Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1XeVsqj5Kl-QR/bibliography/public/)
+
+<br>
+
+### <span style="color: darkblue;">**Nicole Kelso, M.P.S.**</span> Clinical Psychology Doctoral Student
+Nicole is student in Rowan University's Ph.D. Clinical Psychology program. She ...
+
+</font> 
