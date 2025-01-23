@@ -12,6 +12,7 @@ navbar:
       href: projects.html
     - text: "Contact"
       href: contact.html
+output_dir: docs
 output:
   html_document:
     theme: sandstone
