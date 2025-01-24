@@ -1,16 +1,25 @@
 ---
-title: "The **Prev**ention **Sci**ence (PrevSci) Lab"
+title: <span style="color:white">Prevention Science Lab</span>
 output:
   html_document:
     theme: sandstone
     highlight: tango
-    toc: true
-    toc_depth: 3
-    toc_float: true
+    toc: false
 ---
 
+<center>
+
+![](steveversion.png)
+
+</center>
+
+<br>
+
 ### <span style="color: darkblue;">**Mission**</span>
-<font size="4"> Our lab, in the Rowan University Psychology Department, conducts research aimed at advancing efforts to prevent chronic health conditions. To that end, We have four specific areas of focus: 
+
+<font size="4"> 
+
+Our lab, in the Rowan University Psychology Department, conducts research aimed at advancing efforts to prevent chronic health conditions. To that end, We have four specific areas of focus: 
 
 1. **Risk identification.** Identifying individuals at elevated risk for health problems and in greatest need of preventive services
 2. **Etiology.** Identifying modifiable processes that contribute to the development of chronic health conditions
@@ -23,8 +32,10 @@ output:
 
 ### <span style="color: darkblue;">**Core Principles**</span>
 
+<font size="4"> 
+
 * **Transparency.** We work to make our research methods and findings as transparent as possible. Whenever possible, we share data and our analytic code, allowing others to reproduce and critique our results.
-* **Patient-Centeredness.** we subscribe to the patient-centered research approach in which the population of interest in a research study should be involved from the outset in all phases of the research process. We work together with patient representatives and stakeholders to ensure that our work addresses questions that are of greatest value to the populations we study.
+* **Patient-Centeredness.** We subscribe to the patient-centered research approach in which the population of interest in a research study should be involved from the outset in all phases of the research process. We work together with patient representatives and stakeholders to ensure that our work addresses questions that are of greatest value to the populations we study.
 * **Transdiagnostic targets.** Our group does not focus on a single health outcome. Rather, we are interested in studying etiological processes that contribute to a number of chronic health outcomes. For instance, we study the role that prenatal and infant immune development plays in both mental and physical health outcomes.
 
 

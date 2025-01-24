@@ -1,0 +1,59 @@
+---
+title: "**PrevSci Lab Manual**"
+author: "Steven M. Brunwasser"
+date: "2025-01-23"
+output:
+  html_document:
+    theme: sandstone
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+This page is under construction.
+
+<br>
+
+## **General Information**
+
+### Lab Meetings
+
+<br>
+
+### Lab Location
+
+<br>
+
+### Lab Office Hours
+
+<br>
+
+## **Policies & Expectations**
+
+### Grant-Funded RAs
+
+### Federal Work-Study RAs
+
+### 
+
+## **Onboarding**
+
+
+
+**Task List for New Lab Members**
+
+* Sign lab
+* Secure REDCap account
+* Complete CITI Training
+
+**Lab Administrator Task List**
+
+* Request REDCap account
+* Request keycard access for lab
+
+## **Workflow & Apps**
+
+### Preferred Apps
+
+**Data Collection & Storage.** REDCap is our preferred 

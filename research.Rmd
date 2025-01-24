@@ -9,37 +9,80 @@ output:
     toc_float: true
 ---
 
-Our team is currently conducting research focused on several health outcomes, described below. Links to the full text of several of our recent publications are provided. Please contact Steve Brunwasser to request additional full-text articles or see his [National Library of Medicine Bibliography]<https://www.ncbi.nlm.nih.gov/myncbi/1XeVsqj5Kl-QR/bibliography/public/>.
-
-<br>
-
-## <span style="color: darkblue;">**Active Projects** </span>
-
-<br>
-
-### **Depression in Adolescence & Emerging Adulthood**
-
 <font size="4"> 
 
-**College Transition Studies**
-These studies evaluate the course and development of depressive symptoms among first-year students and transfer students making the transition to a new higher education institution.
+Our team is currently conducting research focused on several health outcomes, described below. Links to the full text of several of our recent publications are provided. Please see Dr. Brunwasser's [National Library of Medicine Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1XeVsqj5Kl-QR/bibliography/public/) for full-text articles.
 
-</font>
+<br>
 
+## <span style="color: darkblue;">**Perinatal Health & Developmental Origins of Disease**</span>
+Stress and psychopathology are highly common during pregnancy and the first year postpartum. In addition to the negative impact on maternal health and well-being, children exposed to perinatal adversity are at increased risk for a number of health complications. Our group is working on projects to improve (1) identification of high-risk pregnancies in healthcare settings, (2) understanding of how maternal adversity and toxic environmental exposures affect the development of the developing child, (3) integration of mental health services into prenatal care settings, and (4) working with community providers and advocates to improve access to community preventive care.
+
+<br>
+
+*Select Publications*
+
+* Sutherland, S., & Brunwasser, S. M. (2018). Sex differences in vulnerability to prenatal stress: a review of the recent literature. Current psychiatry reports, 20(11), 102. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6329286/
+* Brunwasser, S. M., Slavich, G. M., Newcomb, D. C., Gebretsadik, T., Turi, K. N., Stone Jr, C., … & Hartert, T. V. (2019). Sex-specific association between prenatal life stress exposure and infant pro-inflammatory cytokine levels during acute respiratory infection. Brain, behavior, and immunity, 76, 275-279. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380181/
+* Nian, H., Odland, R., Mindlin, S., Ammar, L., Tindle, H., Miller, A. M., ... & Wu, P. (2024). Demographic characteristics, perinatal smoking patterns, and risk for neonatal health complications among pregnant smokers in the United States who begin using electronic cigarettes during pregnancy: A descriptive study using population-based surveillance data. Nicotine and Tobacco Research, ntae119. https://academic.oup.com/ntr/article/26/11/1455/7680242
+* Wood, C. T., Churchill, M. L., McGrath, M., Aschner, J., Brunwasser, S. M., Geiger, S., ... & Bosquet-Enlow, M. (2023). Maternal stress and early childhood BMI among US children from the Environmental influences on Child Health Outcomes (ECHO) program. Pediatric research, 94(6), 2085-2091. https://www.nature.com/articles/s41390-023-02750-8
 
 
 <br>
 
-## <span style="color: darkblue;">**Recently Completed Projects** </span>
+## <span style="color: darkblue;">**Depression in Youth & Emerging Adults** </span>
+The prevalence of depression increases greatly during the adolescent years (Merikangas et al., 2010). Our lab conducts research testing etiological models of youth depression. We are currently testing models of how depression develops among students making the transition to higher education. Additionally, we evaluate the effectiveness of youth preventive interventions. Much of our work focuses on identifying who benefits most – and least – from youth prevention programs (i.e., effect modifiers) and testing whether there is evidence for the hypothesized mechanisms of action (i.e., effect mediators). Additionally, we are conducting longitudinal studies evaluating the course and predictors depressive symptoms and depression-related impairment during the transition to college to inform preventive interventions.
+
 <br>
 
-### **Pediatric Asthma & Allergic Disease** ###
+*Select Publications*
 
-<font size="4"> 
+* Brunwasser, S. M., Gillham, J. E., & Kim, E. S. (2009). A meta-analytic review of the Penn Resiliency Program’s effect on depressive symptoms. Journal of consulting and clinical psychology, 77(6), 1042. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4667774/
+* Brunwasser, S. M., & Garber, J. (2016). Programs for the prevention of youth depression: Evaluation of efficacy, effectiveness, and readiness for dissemination. Journal of Clinical Child & Adolescent Psychology, 45(6), 763-783. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5176361/
+* Brunwasser, S. M., Freres, D. R., & Gillham, J. E. (2018). Youth cognitive-behavioral depression prevention: Testing theory in a randomized controlled trial. Cognitive therapy and research, 42(4), 468-482. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6059657/
+* Brent, D. A., Brunwasser, S. M., Hollon, S. D., Weersing, V. R., Clarke, G. N., Dickerson, J. F., … & Iyengar, S. (2015). Effect of a cognitive-behavioral prevention program on depression 6 years after implementation among at-risk adolescents: a randomized clinical trial. JAMA psychiatry, 72(11), 1110-1118. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4635056/
+* Gillham, J. E., & Brunwasser, S. M. (2024). Psychological interventions to prevent depression: a cause for hope. The Lancet Psychiatry, 11(12), 947-948.
+* Lipson, S. K., Speer, N., Brunwasser, S., Hahn, E., & Eisenberg, D. (2014). Gatekeeper training and access to mental health care at universities and colleges. Journal of adolescent health, 55(5), 612-619. https://www.sciencedirect.com/science/article/pii/S1054139X14002274
+* Sutherland, S., Brunwasser, S. M., Nestor, B. A., McCauley, E., Diamond, G., Schloredt, K., & Garber, J. (2021). Prospective relations between parents’ depressive symptoms and children’s attributional style. Journal of Clinical Child & Adolescent Psychology.
+* Tak, Y. R., Brunwasser, S. M., Lichtwarck-Aschoff, A., & Engels, R. C. (2017). The prospective associations between self-efficacy and depressive symptoms from early to middle adolescence: A cross-lagged model. Journal of youth and adolescence, 46, 744-756.
 
-**Review of evidence for a causal effect of infant RSV-induced lower respiratory tract infections on subsequent wheezing illness.**
-This quantitative review was commissioned by the World Health Organization and evaluated the extent to which there is compelling evidence that infant lower respiratory tract infections caused by respiratory syncytial virus contribute causally to chronic wheezing illnesses, like asthma. This study was led by Dr. Brunwasser along with Drs. Tina Hartert (Vanderbilt University Medical Center) and Justin Ortiz (University of Maryland School of Medicine). We published an [open-access journal article](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30109-0/fulltext) describing the findings in Lancet Respiratory Medicine. 
+<br>
 
-A detailed summary of our analyses, including the data and R Code, is available [here](https://brunwasser.github.io/whorsv.github.io/index.html). 
+## <span style="color: darkblue;">**Depression in Autistic Adults** </span>
+We collaborate with Dr. Katherine Gotham’s [Social, Emotional, and Affective Health Lab (SEAHL)](https://www.seahlrowan.com/) at Rowan University conducting research evaluating the role of repetitive thinking and explanatory style in the development of depression in adults with autism.
+
+<br>
+
+*Select Publications*
+
+* Gotham, K., Brunwasser, S. M., & Lord, C. (2015). Depressive and anxiety symptom trajectories from school age through young adulthood in samples with autism spectrum disorder and developmental delay. Journal of the American Academy of Child & Adolescent Psychiatry, 54(5), 369-376.
+* Gotham, K., Bishop, S. L., Brunwasser, S., & Lord, C. (2014). Rumination and perceived impairment associated with depressive symptoms in a verbal adolescent–adult ASD sample. Autism Research, 7(3), 381-391.
+* McKenney, E. E., Brunwasser, S. M., Richards, J. K., Day, T. C., Kofner, B., McDonald, R. G., ... & Gotham, K. O. (2023). Repetitive negative thinking as a transdiagnostic prospective predictor of depression and anxiety symptoms in neurodiverse first-semester college students. Autism in Adulthood, 5(4), 374-388.
+* Terroso, S. R., McKenney, E. E., Brunwasser, S. M., Richards, J. K., Day, T. C., Kofner, B., ... & Gotham, K. O. (2024). Longitudinal Relationships Between Depressive Attributional Style and Internalizing Symptoms in an Autism-Enriched Sample of Incoming College Students. Autism in adulthood.
+
+
+<br>
+
+## <span style="color: darkblue;">**Pediatric Asthma & Respiratory Infections** </span>
+Pediatric asthma and allergic diseases are common and highly burdensome. In collaboration with the [Center for Asthma Research](https://medsites.vumc.org/centerforasthmaresearch) at Vanderbilt University Medical Center (Director: Tina Hartert, MD, MPH), we conduct research aimed at identifying modifiable etiological processes contributing to these adverse health outcomes. Much of our work has focused on quantifying the potential causal role of infant respiratory syncytial virus (RSV) in the development of pediatric asthma. 
+
+<br> 
+*Select Publications*
+
+* Brunwasser, S. M., Snyder, B. M., Driscoll, A. J., Fell, D. B., Savitz, D. A., Feikin, D. R., … & Wu, P. (2020). Assessing the strength of evidence for a causal effect of respiratory syncytial virus lower respiratory tract infections on subsequent wheezing illness: a systematic review and meta-analysis. The Lancet Respiratory Medicine, 8(8), 795-806. https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30109-0/fulltext
+* Brunwasser, S. M., Gebretsadik, T., Gold, D. R., Turi, K. N., Stone Jr, C. A., Datta, S., … & Hartert, T. V. (2018). A new model of wheezing severity in young children using the validated ISAAC wheezing module: A latent variable approach with validation in independent cohorts. PloS one, 13(4), e0194739. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194739
+* Brunwasser, S. M., & Hartert, T. V. (2019). Practical and conceptual considerations for the primary prevention of asthma. Clinics in chest medicine, 40(1), 1-11. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6355160/
+* Hartert, T. V., Wu, P., & Brunwasser, S. M. (2021). Respiratory syncytial virus and asthma: untying the Gordian knot. The Lancet Respiratory Medicine, 9(10), 1092-1094.
+* Brunwasser, S. M., Gebretsadik, T., Satish, A., Cole, J. C., Dupont, W. D., Joseph, C., ... & HEROS study group. (2025). Caregiver worry about COVID-19 as a predictor of social mitigation behaviours and SARS-CoV-2 infection in a 12-city US surveillance study of households with children. Preventive Medicine Reports, 49, 102936. https://www.sciencedirect.com/science/article/pii/S2211335524003516
+* Ortiz, J. R., Laufer, R. S., Brunwasser, S. M., Coulibaly, F., Diallo, F., Doumbia, M., ... & Fitzpatrick, M. C. (2023). Model-estimated impacts of pediatric respiratory syncytial virus prevention programs in Mali on asthma prevalence. Journal of Allergy and Clinical Immunology: Global, 2(2), 100092.
+
+<br>
+
+## <span style="color: darkblue;">**Research Methods & Statistics** </span>
+
+* Fife, D. A., Brunwasser, S. M., & Merkle, E. C. (2023). Seeing the impossible: Visualizing latent variable models with flexplavaan. Psychological Methods, 28(6), 1456.
+* Nian, H., Yu, C., Ding, J., Wu, H., Dupont, W. D., Brunwasser, S., ... & Wu, P. (2019). Performance evaluation of propensity score methods for estimating average treatment effects with multi-level treatments. Journal of applied statistics, 46(5), 853-873.
+* Brunwasser, S.M., Kelso, N., Satish, A. (June 2024). Thinking carefully about how to model time effects when estimating the effects prenatal interventions on postnatal outcomes. In: Brunwasser SM (Chair), Le H-N (Discussant), Statistical and methodological considerations for improving effect estimates for perinatal interventions and environmental exposures. Paper presented at the 31st annual meeting of the Society for Prevention Research, Washington, D.C.
+
 
 </font>
