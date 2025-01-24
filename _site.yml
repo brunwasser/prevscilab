@@ -10,8 +10,8 @@ navbar:
       href: research.html
     - text: "Contact"
       href: contact.html
-    - text: "Lab Manual"
-      href: manual.html
+#    - text: "Lab Manual"
+#      href: manual.html
 output_dir: docs
 output:
   html_document:
